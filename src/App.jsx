@@ -91,8 +91,8 @@ export default function App() {
               clickButton();
             }}
             className={downloadClassName}
-            href="downloadContent/a.txt"
-            download="test.txt"
+            href="downloadContent/dist.zip"
+            download="dist.zip"
           >
             Download
           </a>
@@ -104,16 +104,34 @@ export default function App() {
         </div>
         <div className="tile is-12 is-vertical is-parent">
           <div className="tile is-child box">
-            <p className="subtitle">1,ダウンロードしたzipファイルを解凍する</p>
-            <p className="subtitle">2,GoogleChromeの設定を開く</p>
+            <p className="subtitle">1，ダウンロードしたzipファイルを解凍する</p>
+          </div>
+          <div className="tile is-child box">
+            <p className="subtitle">2，GoogleChromeの設定を開く</p>
             <img src="../images/start.png" style={{ width: 350 }} />
-            <p className="subtitle">3,拡張機能の設定画面を開く</p>
+          </div>
+          <div className="tile is-child box">
+            <p className="subtitle">3，拡張機能の設定画面を開く</p>
             <img src="../images/setting.png" style={{ width: 300 }} />
-            <p className="subtitle">4,拡張機能の設定</p>
-            <img src="../images/extension.png" style={{ width: 900 }} />
-            <p>6,パズルのピースのようなアイコンをクリック</p>
-            <p>7,先ほど追加した拡張機能をピン止め</p>
-            <img src="../images/pin.png" />
+          </div>
+          <div className="tile is-child box">
+            <p className="subtitle">4，拡張機能の設定</p>
+            <img src="../images/extension1.png" style={{ width: 400 }} />
+            <p></p>
+            <img src="../images/extension2.png" style={{ width: 600 }} />
+          </div>
+          <div className="tile is-child box">
+            <p className="subtitle">5，拡張機能の使用</p>
+            <img src="../images/extension3.png" style={{ width: 400 }} />
+            <p></p>
+            <img src="../images/ans.png" style={{ width: 450 }} />
+            <p className="subutitle">以上で拡張機能の使用方法は終わりです</p>
+          </div>
+          <div className="tile is-child box">
+            <p className="subtitle">補足</p>
+            <img src="../images/pin1.png" style={{ width: 400 }} />
+            <p></p>
+            <img src="../images/pin2.png" style={{ width: 300 }} />
           </div>
         </div>
       </section>

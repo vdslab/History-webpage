@@ -103,7 +103,18 @@ export default function App() {
           <h1 className="panel-heading">使用方法</h1>
         </div>
         <div className="tile is-12 is-vertical is-parent">
-          <div className="tile is-child box"></div>
+          <div className="tile is-child box">
+            <p className="subtitle">1,ダウンロードしたzipファイルを解凍する</p>
+            <p className="subtitle">2,GoogleChromeの設定を開く</p>
+            <img src="../images/start.png" style={{ width: 350 }} />
+            <p className="subtitle">3,拡張機能の設定画面を開く</p>
+            <img src="../images/setting.png" style={{ width: 300 }} />
+            <p className="subtitle">4,拡張機能の設定</p>
+            <img src="../images/extension.png" style={{ width: 900 }} />
+            <p>6,パズルのピースのようなアイコンをクリック</p>
+            <p>7,先ほど追加した拡張機能をピン止め</p>
+            <img src="../images/pin.png" />
+          </div>
         </div>
       </section>
       <section id="program" className="section">
